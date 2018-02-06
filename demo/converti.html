@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="image" src="image.jpg" alt="" width="600" height="600">
+
+
+<canvas id="target" width="600" height="600" style="border:1px solid #d3d3d3;"></canvas>
+<!-- <canvas id="target2" width="600" height="600" style="border:1px solid #d3d3d3;"></canvas>
+
+<canvas id="combined" width="600" height="600" style="border:1px solid #d3d3d3;"></canvas>
+
+<img id="dest" width="600" height="600"> -->
+
+</body>
+
+<script src='../src/photomosaic.js'></script>
+<script>
+var photomosaic = new PhotoMosaic({
+    image: document.getElementById('image'),
+    targetElement: document.getElementById('target'),
+    width: 600,
+    height: 600,
+    tileWidth: 10,
+    tileHeight: 10
+})
+</script>
+
+
+</html>
