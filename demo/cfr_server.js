@@ -1,9 +1,7 @@
 var express = require('express');
 var app = express();
-//var client_id = '{YOUR_CLIENT_ID}';
-//var client_secret = '{YOUR_SECRET_KEY}';
-var client_id = 'TjPxrzlW6S5QKX940hev';
-var client_secret = 'KdSht6CYrC';
+var client_id = '{YOUR_CLIENT_ID}';
+var client_secret = '{YOUR_SECRET_KEY}';
 var fs = require('fs');
 app.get('/face', function (req, res) {
    var request = require('request');
