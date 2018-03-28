@@ -9,7 +9,7 @@ app.get('/face', function (req, res) {
    var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
    var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
    var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
-   
+   var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
    var _formData = {
      image:'image',
      image: fs.createReadStream('/usr/local/Cellar/nginx/1.12.2_1/html/mosaic/demo/han.jpg')
