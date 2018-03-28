@@ -24,4 +24,6 @@ app.get('/face', function (req, res) {
 
  app.listen(3000, function () {
    console.log('http://127.0.0.1:3000/face app listening on port 3000!');
+   console.log('MyCFRService is started...');
+   console.log('Develop Branch Pull Request Test');
  });
