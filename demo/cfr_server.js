@@ -18,6 +18,8 @@ app.get('/face', function (req, res) {
        console.log(response.statusCode) // 200
        console.log(response.headers['content-type'])
     });
+
+    console.log( request  );
     console.log( request.head  );
     _req.pipe(res); // 브라우저로 출력
     console.log(   );
