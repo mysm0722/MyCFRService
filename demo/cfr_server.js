@@ -7,7 +7,9 @@ app.get('/face', function (req, res) {
    var request = require('request');
    //var api_url = 'https://openapi.naver.com/v1/vision/celebrity'; // 유명인 인식
    var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
-
+   var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
+   var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
+   var api_url = 'https://openapi.naver.com/v1/vision/face'; // 얼굴 감지
    var _formData = {
      image:'image',
      image: fs.createReadStream('/usr/local/Cellar/nginx/1.12.2_1/html/mosaic/demo/han.jpg')
@@ -18,6 +20,9 @@ app.get('/face', function (req, res) {
        console.log(response.statusCode) // 200
        console.log(response.headers['content-type'])
     });
+
+    console.log( request  );
+    console.log( request  );
     console.log( request.head  );
     _req.pipe(res); // 브라우저로 출력
     console.log(   );
