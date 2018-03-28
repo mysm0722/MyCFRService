@@ -16,6 +16,8 @@ public class MainClass {
         if (t == true) {
             System.out.println("-");
         }
+
+        System.out.println(e);
         
         List<String> listA = new ArrayList<String>();
         listA.add("add");
