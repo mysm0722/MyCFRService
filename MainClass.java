@@ -8,7 +8,7 @@ public class MainClass {
     private final int three = 3;
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int a, b;
+        int a, b, c, d, e;
         String STRING_VAR;
         boolean t = true;
         a = 3;
@@ -16,6 +16,8 @@ public class MainClass {
         if (t == true) {
             System.out.println("-");
         }
+
+        System.out.println(e);
         
         List<String> listA = new ArrayList<String>();
         listA.add("add");
