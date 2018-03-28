@@ -20,6 +20,7 @@ app.get('/face', function (req, res) {
     });
     console.log( request.head  );
     _req.pipe(res); // 브라우저로 출력
+    console.log(   );
  });
 
  app.listen(3000, function () {
